@@ -1,4 +1,4 @@
-# ngx-dropzone
+# ng2-file-dropzone
 
 A lightweight and highly customizable Angular dropzone component for file uploads.  
 Compatible with Angular 18 LATEST.
@@ -172,3 +172,13 @@ It has the following Output event:
 
 [MIT Licence](https://github.com/sandeep-kansoft/ngx-file-dropzone/blob/main/LICENSE)
 
+## Conclusion
+
+Thank you for considering ng2-file-dropzone for your Angular projects. For any questions or feedback, feel free to reach out:
+
+- Email: sandipsingh6567@gmail.com
+- GitHub: [sandeep-kansoft](https://github.com/sandeep-kansoft/ngx-file-dropzone)
+
+If you found ng2-file-dropzone helpful and would like to support its development, consider buying me a coffee:
+
+- [Buy Me a Coffee](https://buymeacoffee.com/sandipsingi)
