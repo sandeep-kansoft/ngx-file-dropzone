@@ -7,7 +7,7 @@ Compatible with Angular 18 LATEST.
 
 <img src="_images/default_dropped.png">
 
-For a demo see [DEMO](https://ngx-dropzone.stackblitz.io). And the [CODE for the demo](https://stackblitz.com/edit/ngx-dropzone).
+For a demo see [DEMO](https://ng2-file-dropzone.stackblitz.io). And the [CODE for the demo](https://stackblitz.com/edit/ng2-file-dropzone).
 
 ## Install
 
@@ -20,9 +20,9 @@ $ npm install --save ng2-file-dropzone
 
 ```html
 <!-- in app.component.html -->
-<ngx-dropzone (change)="onSelect($event)">
-	<ngx-dropzone-label>Drop it, baby!</ngx-dropzone-label>
-</ngx-dropzone>
+<ng2-file-dropzone (change)="onSelect($event)">
+	<h6>Drop it, baby!</h6>
+</ng2-file-dropzone>
 ```
 
 ```js
