@@ -1,0 +1,38 @@
+{
+  "name": "ng2-file-dropzone",
+  "description": "dropzone component for Angular v18. updated version of ngx-dropzone",
+  "version": "0.0.1",
+  "author": "@sandeep_singh_sisodiya",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "ngx",
+    "drag",
+    "drop",
+    "dropzone",
+    "ngx-dropzone",
+    "file",
+    "upload",
+    "image"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/sandeep-kansoft/ngx-file-dropzone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep-kansoft/ngx-file-dropzone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandeep-kansoft/ngx-dropzone/issues"
+  }
+}

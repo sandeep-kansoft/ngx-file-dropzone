@@ -1,0 +1,47 @@
+$dz-bg: #fff;
+$dz-border: #717386;
+
+:host {
+	display: flex;
+	align-items: center;
+	height: 148px;
+	background: $dz-bg;
+	cursor: pointer;
+	color: $dz-border;
+	border: 2px dashed $dz-border;
+	border-radius: 5px;
+	font-size: 16px;
+
+	&.ngx-dz-hovered {
+		border-style: solid;
+	}
+
+	&.ngx-dz-disabled {
+		opacity: 0.5;
+		cursor: no-drop;
+		pointer-events: none;
+	}
+
+	/** The default scroll-to-side styles **/
+	overflow-x: auto;
+
+	&.expandable {
+		overflow: hidden;
+		height: unset;
+		min-height: 148px;
+		flex-wrap: wrap;
+	}
+
+	&.unclickable {
+		cursor: default;
+	}
+
+	& input {
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1; 
+	}
+}

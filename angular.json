@@ -97,6 +97,39 @@
           }
         }
       }
+    },
+    "ng2-file-dropzone": {
+      "projectType": "library",
+      "root": "projects/ng2-file-dropzone",
+      "sourceRoot": "projects/ng2-file-dropzone/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng2-file-dropzone/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng2-file-dropzone/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng2-file-dropzone/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ng2-file-dropzone/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }
